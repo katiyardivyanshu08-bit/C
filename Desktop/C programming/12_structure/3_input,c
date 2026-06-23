@@ -1,0 +1,20 @@
+//Structure=>datatype(custom data type)
+//used to store elements of different data types in a single variable.
+#include <stdio.h>
+int main() {
+    struct Employe{
+        int ID;
+        char Grade;
+        float Salary;
+    };
+    
+   struct  Employe E1;
+scanf("%d %c %f",&E1.ID,&E1.Grade,&E1.Salary);
+   
+ 
+   printf("Employe 1 :\nID : %d \nGrade : %c \nSalary : %.2f\n\n",E1.ID,E1. Grade,E1.Salary);
+   
+  
+   
+    return 0;
+}
